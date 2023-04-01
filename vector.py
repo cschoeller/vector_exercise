@@ -1,0 +1,3 @@
+class Vector:
+    ... # implement here
+    

@@ -1,0 +1,6 @@
+pip-tools==6.12.3
+isort==5.12.0
+mypy==1.1.1
+pytest==7.2.2
+pylint==3.0.0a5
+black==23.3.0
