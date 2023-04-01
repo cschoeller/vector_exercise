@@ -1,13 +1,15 @@
 ## Clean Coding Exercise
 
 ### Install setup
-Use Visual Studio Code (VS) and install the pylint and pylance plugins for support during the exercise. Also install `conda` for managing a virtual environment. Then run the following commands to install and use the environment:
+Use Visual Studio Code (VS) and install the `pylint` and `pylance` plugins for support during the exercise. Also install `conda` for managing a virtual environment. Then run the following commands to install and use the environment:
 
 ```
 conda create --name vector python=3.9 -y
 conda activate vector
 pip install -r requirements.txt
 ```
+
+To enable the plugins for working with your environment press `F1`, type "Select Interpreter" and choose your `vector` enviroment.
 
 ### Task
 Define a `Vector` class that can be instantiated with a list of numeric values.
@@ -30,7 +32,7 @@ In subsequent iterations the class should be:
 - commented with proper docstrings
 - use type hints
 - throw meaningful exceptions to prevent misuse
-- have appropriate pytest unit tests in the 'test' folder
+- have appropriate unit tests in the 'test' folder
 
 ### Final step
 When you are finished, run the following commands on your final vector and test modules:
