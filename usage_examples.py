@@ -13,6 +13,15 @@ def main():
     print(x[0])
     print(list(x))
 
+    # explicit iteration
+    try:
+        it = iter(x)
+        while True:
+            v = next(it)
+            print(v)
+    except StopIteration:
+        print("End of iteration")
+
     z_add = x + y
     print(z_add)
 
