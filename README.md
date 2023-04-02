@@ -9,7 +9,7 @@ conda activate vector
 pip install -r requirements.txt
 ```
 
-To enable the plugins for working with your environment press `F1`, type "Select Interpreter" and choose your `vector` enviroment.
+To enable the plugins for working with your environment press `F1`, type "Select Interpreter" and choose your `vector` environment.
 
 ### Task
 Define a `Vector` class that can be instantiated with a list of numeric values.
