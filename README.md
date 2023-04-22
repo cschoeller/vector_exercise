@@ -1,5 +1,7 @@
 ## Clean Coding Exercise
 
+This repository contains a coding exercise with a focus on code style and best practices. These are skills rarely taught at university and typically not part of leetcode-like challenges. While this exercise uses Python, many of the ideas transfer to other programming languages.
+
 ### Install setup
 Use Visual Studio Code (VS) and install the `pylint` and `pylance` plugins for support during the exercise. Also install `conda` for managing a virtual environment. Then run the following commands to install and use the environment:
 
